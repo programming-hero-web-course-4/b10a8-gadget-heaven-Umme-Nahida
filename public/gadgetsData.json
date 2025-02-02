@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "title": "iPhone 14",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "Powerful smartphone with advanced features.",
+      "specification": ["6.1-inch Display", "48 MP Camera", "5G"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Galaxy S23",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Smartphone",
+      "price": 1399.99,
+      "description": "High-end phone with top performance.",
+      "specification": ["6.8-inch Display", "200 MP Camera", "5000 mAh Battery"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "title": "Sony XM5",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Headphones",
+      "price": 399.99,
+      "description": "Top-quality noise-cancelling headphones.",
+      "specification": ["40mm drivers", "Bluetooth", "30-hour Battery"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "MacBook Pro",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Laptop",
+      "price": 1999.99,
+      "description": "Fast and powerful laptop for professionals.",
+      "specification": ["14-inch Display", "M2 Chip", "512GB SSD"],
+      "availability": false,
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "title": "Galaxy Tab S9",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Tablet",
+      "price": 899.99,
+      "description": "Powerful tablet with pen support.",
+      "specification": ["11-inch Display", "8GB RAM", "128GB Storage"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "title": "GoPro 12",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Camera",
+      "price": 499.99,
+      "description": "Action camera for adventures.",
+      "specification": ["5.3K Video", "Waterproof", "HyperSmooth"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "title": "Apple Watch 9",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Smartwatch",
+      "price": 429.99,
+      "description": "Smartwatch for fitness and health tracking.",
+      "specification": ["Always-On Display", "Blood Oxygen Monitor", "GPS"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "title": "Dyson Airwrap",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Hair Tool",
+      "price": 599.99,
+      "description": "Multi-functional hair styling tool.",
+      "specification": ["Heat Control", "Curl & Wave", "Smooth"],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "title": "Bose Speaker",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Speaker",
+      "price": 299.99,
+      "description": "Portable Bluetooth speaker with 360° sound.",
+      "specification": ["12-hour Battery", "Water-Resistant", "360° Sound"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "id": 10,
+      "title": "DJI Mini 3",
+      "image": "https://apexapr.mu/sites/default/files/product-images-2022-10/iPhone%2014%20Blue.png",
+      "category": "Drone",
+      "price": 759.99,
+      "description": "Compact drone with advanced features.",
+      "specification": ["4K Video", "Obstacle Avoidance", "34-min Flight"],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]
+  
