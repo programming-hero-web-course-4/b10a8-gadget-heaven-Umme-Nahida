@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 
 const getStoreWishlist =()=>{
    const storeList = localStorage.getItem('wish-list')
@@ -14,7 +15,7 @@ const getStoreWishlist =()=>{
 const addWishList =(id)=>{
     const storeList = getStoreWishlist();
     if(storeList.includes(id)){
-        alert('this item already exits')
+        toast('this item already exits')
     }else{
         storeList.push(id)
         const storedListStr = JSON.stringify(storeList)

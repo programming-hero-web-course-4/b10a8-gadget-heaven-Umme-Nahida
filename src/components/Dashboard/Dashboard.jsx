@@ -34,8 +34,8 @@ const Dashboard = () => {
                 <h2 className='text-2xl font-bold'>Dashboard </h2>
                 <p className='max-w-2/3 mx-auto'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
                 <div className='flex items-center justify-center pt-5 gap-x-2'>
-                    <button onClick={() => setOpen(false)} className='rounded-full border-2 border-white text-white hover:bg-white hover:text-purple-600 px-5 py-2 '>Cart</button>
-                    <button onClick={() => setOpen(true)} className='rounded-full border-2 border-white text-white hover:bg-white hover:text-purple-600 px-5 py-2 '>Wishlist</button>
+                    <button onClick={() => setOpen(false)} className='rounded-full cursor-pointer border-2 border-white text-white hover:bg-white hover:text-purple-600 px-5 py-2 '>Cart</button>
+                    <button onClick={() => setOpen(true)} className='rounded-full cursor-pointer border-2 border-white text-white hover:bg-white hover:text-purple-600 px-5 py-2 '>Wishlist</button>
                 </div>
             </div>
 
@@ -46,12 +46,25 @@ const Dashboard = () => {
             {
                 open ?
                     <div>
-                        <Wishlists wishList={wish}></Wishlists>
+                        {
+                            wish?.length > 0 ? 
+                            <Wishlists wishList={wish}></Wishlists> :
+                            <div>
+                                <h1>Your have not any wish List product</h1>
+                            </div>
+                        }
                     </div> 
                     :
                     <div>
 
-                        <Carts carts={cart} setCarts={setCart}></Carts>
+                       {
+                          cart?.length > 0 ? 
+
+                          <Carts carts={cart} setCarts={setCart}></Carts> :
+                          <div>
+                                <h1>Your have not any cart product</h1>
+                            </div>
+                       }
 
                     </div>
 

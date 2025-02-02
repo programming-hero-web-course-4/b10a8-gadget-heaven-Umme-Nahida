@@ -4,6 +4,7 @@ import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { addToStoredCartList } from '../../utility/addToDatabase';
 import { addWishList } from '../../utility/addToWishlitDB';
+import { toast } from 'react-toastify';
 
 const ProductDetail = () => {
     const { gadgetId } = useParams()
@@ -20,11 +21,14 @@ const ProductDetail = () => {
         // if not , add to the data to the list
         // if yes , dont add the data
         addToStoredCartList(id)
+        toast('product has been added successfully')
     }
 
     const handleWishlist =(id)=>{
         console.log('added wihslist',id)
+
         addWishList(id)
+        toast('Product has been added in Wish list')
     }
     return (
         <div>

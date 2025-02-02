@@ -1,3 +1,4 @@
+import { toast } from "react-toastify"
 
 
 const getStoredCartList = ()=>{
@@ -14,7 +15,7 @@ const getStoredCartList = ()=>{
 const  addToStoredCartList =(id)=>{
    const storedList = getStoredCartList()
    if(storedList.includes(id)){
-    alert('the data is already exist')
+    toast('this item already exits')
    }
    else{
     storedList.push(id)

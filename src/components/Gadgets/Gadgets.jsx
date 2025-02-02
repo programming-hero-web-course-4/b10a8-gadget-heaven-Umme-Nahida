@@ -12,16 +12,16 @@ const Gadgets = () => {
 
     return (
         <div>
-            <h2 className='text-4xl font-bold text-center'>Explore Cutting-Edge Gadgets</h2>
+            <h2 className='text-4xl font-bold text-center my-8'>Explore Cutting-Edge Gadgets</h2>
             <div className='grid grid-cols-1  lg:grid-cols-4'>
                 <div className='flex flex-col gap-5 w-2/3'>
-                   <button className='rounded-full px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>All Product</button>
-                   <button className='rounded-full px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Laptops</button>
-                   <button className='rounded-full px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white '>Phones</button>
-                   <button className='rounded-full px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Accesories</button>
-                   <button className='rounded-full px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Smart Wacthes</button>
-                   <button className='rounded-full px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Macbook</button>
-                   <button className='rounded-full px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Iphone</button>
+                   <button className='rounded-full cursor-pointer px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>All Product</button>
+                   <button className='rounded-full cursor-pointer px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Laptops</button>
+                   <button className='rounded-full cursor-pointer px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white '>Phones</button>
+                   <button className='rounded-full cursor-pointer px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Accesories</button>
+                   <button className='rounded-full cursor-pointer px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Smart Wacthes</button>
+                   <button className='rounded-full cursor-pointer px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Macbook</button>
+                   <button className='rounded-full cursor-pointer px-5 py-2 bg-slate-200 hover:bg-purple-600 hover:text-white'>Iphone</button>
                 </div>
                 <div className='col-span-3'>
                     <div className='grid grid-cols-3 gap-10'>
